@@ -8,6 +8,7 @@ int main(int argc, char* argv[])
         return -1;
     }
     
+    std::cout << "The following arguments were provided:" << std::endl;
     int iter = 1;
     while(argv[iter]) std::cout << argv[iter++] << std::endl;
 
